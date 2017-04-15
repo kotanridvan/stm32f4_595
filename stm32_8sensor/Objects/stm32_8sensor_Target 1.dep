@@ -1,0 +1,129 @@
+Dependencies for Project 'stm32_8sensor', Target 'Target 1': (DO NOT MODIFY !)
+F (.\stm32_8sensor.c)(0x58EBADD0)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\stm32_8sensor-IC:\Users\kotan\Desktop\stm32_8sensor\RTE-IC:\Users\kotan\Desktop\stm32_8sensor\RTE\Device\STM32F407VG-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DHSE_VALUE="8000000"-o .\objects\stm32_8sensor.o --omf_browse .\objects\stm32_8sensor.crf --depend .\objects\stm32_8sensor.d)
+I (stm32f4xx.h)(0x58518F14)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x58988FDA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E8476)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x58988FDA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x58988FDA)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include\system_stm32f4xx.h)(0x529EF362)
+I (C:\Users\kotan\Desktop\stm32_8sensor\RTE\Device\STM32F407VG\stm32f4xx_conf.h)(0x52E60388)
+I (C:\Users\kotan\Desktop\stm32_8sensor\RTE\RTE_Components.h)(0x585189C9)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x52B3E526)
+I (..\stm32_8sensor\stm32f4xx.h)(0x58518F14)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52B3E526)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x52B3E526)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x52B3E526)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x52B3E526)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc\misc.h)(0x52B3E526)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E8476)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E8476)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x574E8476)
+F (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Lib\ARM\arm_cortexM4lf_math.lib)(0x58988FDE)()
+F (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\src\misc.c)(0x52B3E526)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\stm32_8sensor-IC:\Users\kotan\Desktop\stm32_8sensor\RTE-IC:\Users\kotan\Desktop\stm32_8sensor\RTE\Device\STM32F407VG-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DHSE_VALUE="8000000"-o .\objects\misc.o --omf_browse .\objects\misc.crf --depend .\objects\misc.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc\misc.h)(0x52B3E526)
+I (..\stm32_8sensor\stm32f4xx.h)(0x58518F14)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x58988FDA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E8476)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x58988FDA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x58988FDA)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include\system_stm32f4xx.h)(0x529EF362)
+I (C:\Users\kotan\Desktop\stm32_8sensor\RTE\Device\STM32F407VG\stm32f4xx_conf.h)(0x52E60388)
+I (C:\Users\kotan\Desktop\stm32_8sensor\RTE\RTE_Components.h)(0x585189C9)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x52B3E526)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52B3E526)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x52B3E526)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x52B3E526)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x52B3E526)
+F (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\src\stm32f4xx_adc.c)(0x52B3E526)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\stm32_8sensor-IC:\Users\kotan\Desktop\stm32_8sensor\RTE-IC:\Users\kotan\Desktop\stm32_8sensor\RTE\Device\STM32F407VG-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DHSE_VALUE="8000000"-o .\objects\stm32f4xx_adc.o --omf_browse .\objects\stm32f4xx_adc.crf --depend .\objects\stm32f4xx_adc.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x52B3E526)
+I (..\stm32_8sensor\stm32f4xx.h)(0x58518F14)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x58988FDA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E8476)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x58988FDA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x58988FDA)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include\system_stm32f4xx.h)(0x529EF362)
+I (C:\Users\kotan\Desktop\stm32_8sensor\RTE\Device\STM32F407VG\stm32f4xx_conf.h)(0x52E60388)
+I (C:\Users\kotan\Desktop\stm32_8sensor\RTE\RTE_Components.h)(0x585189C9)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52B3E526)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x52B3E526)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x52B3E526)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x52B3E526)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc\misc.h)(0x52B3E526)
+F (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\src\stm32f4xx_gpio.c)(0x52B3E526)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\stm32_8sensor-IC:\Users\kotan\Desktop\stm32_8sensor\RTE-IC:\Users\kotan\Desktop\stm32_8sensor\RTE\Device\STM32F407VG-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DHSE_VALUE="8000000"-o .\objects\stm32f4xx_gpio.o --omf_browse .\objects\stm32f4xx_gpio.crf --depend .\objects\stm32f4xx_gpio.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52B3E526)
+I (..\stm32_8sensor\stm32f4xx.h)(0x58518F14)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x58988FDA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E8476)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x58988FDA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x58988FDA)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include\system_stm32f4xx.h)(0x529EF362)
+I (C:\Users\kotan\Desktop\stm32_8sensor\RTE\Device\STM32F407VG\stm32f4xx_conf.h)(0x52E60388)
+I (C:\Users\kotan\Desktop\stm32_8sensor\RTE\RTE_Components.h)(0x585189C9)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x52B3E526)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x52B3E526)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x52B3E526)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x52B3E526)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc\misc.h)(0x52B3E526)
+F (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\src\stm32f4xx_rcc.c)(0x52B3E526)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\stm32_8sensor-IC:\Users\kotan\Desktop\stm32_8sensor\RTE-IC:\Users\kotan\Desktop\stm32_8sensor\RTE\Device\STM32F407VG-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DHSE_VALUE="8000000"-o .\objects\stm32f4xx_rcc.o --omf_browse .\objects\stm32f4xx_rcc.crf --depend .\objects\stm32f4xx_rcc.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x52B3E526)
+I (..\stm32_8sensor\stm32f4xx.h)(0x58518F14)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x58988FDA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E8476)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x58988FDA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x58988FDA)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include\system_stm32f4xx.h)(0x529EF362)
+I (C:\Users\kotan\Desktop\stm32_8sensor\RTE\Device\STM32F407VG\stm32f4xx_conf.h)(0x52E60388)
+I (C:\Users\kotan\Desktop\stm32_8sensor\RTE\RTE_Components.h)(0x585189C9)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x52B3E526)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52B3E526)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x52B3E526)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x52B3E526)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc\misc.h)(0x52B3E526)
+F (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\src\stm32f4xx_spi.c)(0x52B3E526)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\stm32_8sensor-IC:\Users\kotan\Desktop\stm32_8sensor\RTE-IC:\Users\kotan\Desktop\stm32_8sensor\RTE\Device\STM32F407VG-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DHSE_VALUE="8000000"-o .\objects\stm32f4xx_spi.o --omf_browse .\objects\stm32f4xx_spi.crf --depend .\objects\stm32f4xx_spi.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x52B3E526)
+I (..\stm32_8sensor\stm32f4xx.h)(0x58518F14)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x58988FDA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E8476)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x58988FDA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x58988FDA)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include\system_stm32f4xx.h)(0x529EF362)
+I (C:\Users\kotan\Desktop\stm32_8sensor\RTE\Device\STM32F407VG\stm32f4xx_conf.h)(0x52E60388)
+I (C:\Users\kotan\Desktop\stm32_8sensor\RTE\RTE_Components.h)(0x585189C9)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x52B3E526)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52B3E526)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x52B3E526)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x52B3E526)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc\misc.h)(0x52B3E526)
+F (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\src\stm32f4xx_usart.c)(0x52B3E526)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\stm32_8sensor-IC:\Users\kotan\Desktop\stm32_8sensor\RTE-IC:\Users\kotan\Desktop\stm32_8sensor\RTE\Device\STM32F407VG-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DHSE_VALUE="8000000"-o .\objects\stm32f4xx_usart.o --omf_browse .\objects\stm32f4xx_usart.crf --depend .\objects\stm32f4xx_usart.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x52B3E526)
+I (..\stm32_8sensor\stm32f4xx.h)(0x58518F14)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x58988FDA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E8476)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x58988FDA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x58988FDA)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include\system_stm32f4xx.h)(0x529EF362)
+I (C:\Users\kotan\Desktop\stm32_8sensor\RTE\Device\STM32F407VG\stm32f4xx_conf.h)(0x52E60388)
+I (C:\Users\kotan\Desktop\stm32_8sensor\RTE\RTE_Components.h)(0x585189C9)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x52B3E526)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52B3E526)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x52B3E526)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x52B3E526)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc\misc.h)(0x52B3E526)
+F (RTE\Device\STM32F407VG\RTE_Device.h)(0x535F8474)()
+F (RTE\Device\STM32F407VG\startup_stm32f40_41xxx.s)(0x529EF362)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork -IC:\Users\kotan\Desktop\stm32_8sensor\RTE-IC:\Users\kotan\Desktop\stm32_8sensor\RTE\Device\STM32F407VG-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc--pd "__UVISION_VERSION SETA 521" --pd "_RTE_ SETA 1" --pd "STM32F40_41xxx SETA 1"--list .\listings\startup_stm32f40_41xxx.lst --xref -o .\objects\startup_stm32f40_41xxx.o --depend .\objects\startup_stm32f40_41xxx.d)
+F (RTE\Device\STM32F407VG\stm32f4xx_conf.h)(0x52E60388)()
+F (RTE\Device\STM32F407VG\system_stm32f4xx.c)(0x529EF362)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\stm32_8sensor-IC:\Users\kotan\Desktop\stm32_8sensor\RTE-IC:\Users\kotan\Desktop\stm32_8sensor\RTE\Device\STM32F407VG-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DHSE_VALUE="8000000"-o .\objects\system_stm32f4xx.o --omf_browse .\objects\system_stm32f4xx.crf --depend .\objects\system_stm32f4xx.d)
+I (..\stm32_8sensor\stm32f4xx.h)(0x58518F14)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x58988FDA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E8476)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x58988FDA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x58988FDA)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include\system_stm32f4xx.h)(0x529EF362)
+I (C:\Users\kotan\Desktop\stm32_8sensor\RTE\Device\STM32F407VG\stm32f4xx_conf.h)(0x52E60388)
+I (C:\Users\kotan\Desktop\stm32_8sensor\RTE\RTE_Components.h)(0x585189C9)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x52B3E526)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52B3E526)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x52B3E526)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x52B3E526)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x52B3E526)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc\misc.h)(0x52B3E526)
