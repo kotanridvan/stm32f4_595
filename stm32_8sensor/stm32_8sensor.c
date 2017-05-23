@@ -3,6 +3,8 @@
 #include <stdlib.h>
 #include <math.h>
 
+#define seqLength 56
+
 uint16_t Read_ADC(void){
 	
 	ADC_RegularChannelConfig(ADC1, ADC_Channel_0, 1, ADC_SampleTime_56Cycles);
@@ -32,6 +34,12 @@ void delayUS(uint32_t time){
 	
 }
 
+void delayMS(uint32_t time){
+	
+	delayUS(1000);
+	
+}
+
 void initBoard(void){
 	
 	GPIO_InitTypeDef gpio_def;
@@ -44,7 +52,7 @@ void initBoard(void){
 	RCC_APB2PeriphClockCmd(RCC_APB2Periph_ADC1, ENABLE);
 	
 	gpio_def2.GPIO_Mode  = GPIO_Mode_OUT;
-	gpio_def2.GPIO_Pin   = GPIO_Pin_12 | GPIO_Pin_13 | GPIO_Pin_14 | GPIO_Pin_15;
+	gpio_def2.GPIO_Pin   = GPIO_Pin_0 | GPIO_Pin_1 | GPIO_Pin_2 | GPIO_Pin_3 | GPIO_Pin_4 | GPIO_Pin_5 | GPIO_Pin_12 | GPIO_Pin_13 | GPIO_Pin_14 | GPIO_Pin_15;
 	gpio_def2.GPIO_OType = GPIO_OType_PP;
 	gpio_def2.GPIO_Speed = GPIO_Speed_100MHz;
 	GPIO_Init(GPIOD, &gpio_def2);
@@ -65,19 +73,15 @@ void initBoard(void){
 
 }
 
-void sendToSHR(uint8_t b){
+void shiftRight(int position){
 	
 	uint8_t i;
-	uint8_t bits[8];
 	GPIOD->BSRRH = (1<<15);
+	GPIOD->BSRRH = (1<<14);
 	GPIOD->BSRRH = (1<<13);
 	
-	for(i = 0; i < 8; i++){
-			bits[i] = (b & ((uint8_t)pow(2,i)))/((uint8_t)pow(2,i)); // getting bit values of a number
-	}
-	
-	for(i = 0; i < 8; i++){
-		if(bits[i])
+	for(i = 0; i < seqLength; i++){
+		if(position == i)
 			GPIOD->BSRRL = (1<<15);	// send bits to shift register one-by-one
 		else
 			GPIOD->BSRRH = (1<<15);	// send bits to shift register one-by-one
@@ -96,22 +100,34 @@ void sendToSHR(uint8_t b){
 	
 }
 
+void controlMux(int position){
+	
+	GPIOD->ODR = position;
+	
+}
 
-uint16_t adc_data[8];
+
+uint16_t adc_data[seqLength];
+uint16_t adc_data1;
 uint8_t j;
 int main(){
 	
 	initBoard();
 	
 	while(1){
-		
-		for(j=0; j<8; j++){
-			sendToSHR((uint8_t)pow(2,j));
-			delayUS(10);
+		uint8_t position = 0;
+		int x=8;
+		for(j=0; j<seqLength; j++){
+			shiftRight(x);
+			controlMux(63-x);
+			position++;
+			delayMS(10);
 			adc_data[j] = Read_ADC();
-			delayUS(1000000);
+			delayMS(1000);
 		}
+		
 		//motor hareket
+		delayMS(100000);
 	}
 	
 }
